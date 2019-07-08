@@ -1,0 +1,266 @@
+*{
+	padding: 0px;
+	margin-top: 1px;
+}
+.image{
+	background-image: url(pagetop.jpg);
+	margin-bottom: 0px;
+}
+
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#top{
+	border-image-repeat: repeat;
+}
+
+#navbar{
+	background-image: url(dp.png);
+	
+	background-repeat: inherit;
+	font-size: 40px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline;
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+}
+#navbar a:hover{
+	text-decoration: none;
+}
+
+
+li{
+	color: red;
+	font-size: 50px;
+	margin-left: 2cm;
+	margin-right: 2cm;
+	display: inline;
+}
+a{
+	color:red;
+}
+a:hover{
+	color: orange;
+}
+h1,h3,label{
+	color:red;
+}
+#homeCRS{
+	display: inline;
+	display: flex;
+	justify-content: center;
+}
+#homeCRS h1:hover{
+	color: blueviolet;
+	text-decoration: none;
+}
+
+button:hover{
+	color:orange;
+}d
+
+.backgrounds {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.backgrounds img{
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+#video{
+	margin-top: 3cm;
+	margin-bottom: 3cm;
+	display: flex;
+	justify-content: center;
+}
+.cp{
+	width: 100%;
+	height: inherit;
+	display:flex;
+	justify-content: space-around;
+    flex-flow: row wrap;
+}
+.CPIC1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.CPIC4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.CPIC1:hover{
+	opacity: 0.6;
+}
+.CPIC2:hover{
+	opacity: 0.6;
+}
+
+.CPIC3:hover{
+	opacity: 0.6;
+}
+
+.CPIC4:hover{
+	opacity: 0.6;
+}
+
+
+.CPIC1 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+.CPIC2 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+.CPIC3 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+
+.CPIC4 img{
+	
+	width: 300px;
+	height: 200px;
+	background-color: black;
+	display:flex;
+	justify-content: center;
+    flex-flow: row wrap;
+}
+
+.CPIC1 #btn1{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+	text-decoration: none;
+	display: none;
+}
+.CPIC2 #btn2{
+	margin-left: 70px;
+	margin-top: 20px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+  
+}
+.CPIC3 #btn3{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+.CPIC4 #btn4{
+	margin-left: 70px;
+	margin-top: 20px;
+	position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+}
+#popoutP{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	width: 700px;
+	height: 100px;
+	border: none;
+	border-radius: 10px;
+	display: flex;
+	background-color: azure;
+	flex-flow:row wrap;
+    display: none;
+}
+
+
+
+textarea{
+	width: 10cm;
+	height: 4cm;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+label{
+	margin: 0.2cm;
+}
+
+input{
+	height: 0.7cm;
+	border: none;
+	border-radius: 4px;
+}
